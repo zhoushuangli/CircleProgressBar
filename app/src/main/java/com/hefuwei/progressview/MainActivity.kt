@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val animator = ObjectAnimator.ofInt(cb,"progress",100)
-        animator.duration = 25000
+        animator.duration = 10000
         animator.start()
     }
 }
